@@ -1,7 +1,6 @@
 (require 'generic-x)
 
-(define-generic-mode
-    'hdl-mode
+(define-generic-mode hdl-mode
   nil
   nil
   nil
