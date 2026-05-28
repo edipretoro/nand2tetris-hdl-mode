@@ -27,6 +27,9 @@
 (defvar hdl-mode-hook nil
   "*List of functions to call when entering HDL mode.")
 
+(defvar hdl-mode-map nil
+  "Keymap for hdl major mode.")
+
 (defun hdl-mode ()
   "Major mode for editing HDL files (from nand2tetris)."
   (interactive)
