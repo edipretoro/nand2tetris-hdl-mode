@@ -2,7 +2,7 @@
 
 (define-generic-mode hdl-mode
   nil
-  nil
+  '("CHIP" "IN" "OUT" "PARTS")
   nil
   nil
   nil
